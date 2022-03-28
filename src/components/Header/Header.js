@@ -14,7 +14,7 @@ export default function Header() {
 	console.log(user);
 
 	return (
-		<Wrapper>
+		<Wrapper id="header">
 			<Content>
 				<Link to="/">
 					<LogoImg src={RMDBLogo} alt="rmdb-logo" />

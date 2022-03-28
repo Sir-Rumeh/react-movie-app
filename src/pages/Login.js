@@ -50,7 +50,7 @@ export default function Login() {
 			<input
 				type="text"
 				value={username}
-				name="username"
+				name={user}
 				onChange={handleInput}
 			/>
 			<input
