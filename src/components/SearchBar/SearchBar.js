@@ -25,7 +25,7 @@ export default function SearchBar({ setSearchTerm }) {
 		<Wrapper>
 			<Content>
 				<img src={searchIcon} alt="search-icon" />
-				<form>
+				<form className="bg-black">
 					<input
 						type="text"
 						placeholder="Search Movie"
