@@ -67,7 +67,7 @@ export default function Home() {
 					callback={() => setIsLoadingMore(true)}
 				/>
 			)}
-			{console.log('testing')}
+			{/* {console.log('testing')} */}
 		</>
 	);
 }
