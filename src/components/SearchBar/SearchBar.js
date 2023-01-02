@@ -6,7 +6,7 @@ import { Wrapper, Content } from './SearchBar.Styles';
 
 export default function SearchBar({ setSearchTerm }) {
 	// const [state, setState] = useState('');
-	// const initial = useRef(true);
+	const initial = useRef(true);
 
 	useEffect(() => {
 		if (initial.current) {
