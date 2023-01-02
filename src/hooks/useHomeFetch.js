@@ -22,6 +22,8 @@ export const useHomeFetch = () => {
 		try {
 			setError(false);
 			setLoading(true);
+			// be doing this setting part above in your axios configuration file the way Kelechi take do him own for
+			// that SME Account project
 
 			const movies = await API.fetchMovies(searchTerm, page);
 

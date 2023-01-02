@@ -26,12 +26,12 @@ export default function SearchBar({ setSearchTerm }) {
 			<Content>
 				<img src={searchIcon} alt="search-icon" />
 				<form className="bg-black">
-					<input
+					{/* <input
 						type="text"
 						placeholder="Search Movie"
 						onChange={(e) => setState(e.currentTarget.value)}
 						value={state}
-					/>
+					/> */}
 				</form>
 			</Content>
 		</Wrapper>
