@@ -14,9 +14,9 @@ export default function SearchBar({ setSearchTerm }) {
 		// 	return;
 		// }
 
-		const timer = setTimeout(() => {
-			setSearchTerm(state);
-		}, 500);
+		// const timer = setTimeout(() => {
+		// 	setSearchTerm(state);
+		// }, 500);
 
 		return () => clearTimeout(timer);
 	}, [setSearchTerm, state]);
